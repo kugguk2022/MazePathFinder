@@ -29,7 +29,18 @@ pip install -r requirements.txt
 ```bash
 python MazePathFinder.py --input examples/maze.png --algorithm astar --output examples/solution.png
 ```
+# Uses an embedded demo grid:
 
+```bash
+python mazepathfinder.py --algo bfs
+python mazepathfinder.py --algo dijkstra --diagonals
+python mazepathfinder.py --algo astar --heuristic manhattan
+```
+# Or run on your own file (0=free, 1=#, or numeric weights):
+
+```bash
+python mazepathfinder.py --algo astar --grid path/to/grid.txt --start 0 0 --goal 9 9
+```
 ## Supported Algorithms
 
 | Algorithm | Optimal | Complete |  Best For |
