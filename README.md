@@ -34,10 +34,10 @@ python maze_solver.py --input maze.png --algorithm astar --output solution.png
 
 | Algorithm | Optimal | Complete | Time Complexity | Best For |
 |-----------|---------|----------|-----------------|----------|
-| A* Search | ✓ | ✓ | O(b^d) | Most mazes with heuristic |
-| Dijkstra's | ✓ | ✓ | O(|E|+|V|log|V|) | Weighted mazes |
-| BFS | ✓ | ✓ | O(|V|+|E|) | Unweighted mazes |
-| DFS | ✗ | ✓ | O(|V|+|E|) | Memory-constrained cases |
+| A* Search | ✓ | ✓ | \math{O(b^d)} | Most mazes with heuristic |
+| Dijkstra's | ✓ | ✓ | \math{O(|E|+|V|log|V|)} | Weighted mazes |
+| BFS | ✓ | ✓ |   \math{O(|V|+|E|)} | Unweighted mazes |
+| DFS | ✗ | ✓ | \math{O(|V|+|E|)} | Memory-constrained cases |
 
 ## Examples
 
@@ -80,7 +80,7 @@ print(f"Nodes explored: {stats['nodes_explored']}")
 
 ```
 MazePathFinder/
-├── maze_solver.py     # Main solver class
+├── MazePathFinder.py     # Main solver class
 ├── algorithms/        # Pathfinding implementations
 ├── utils/             # Image processing utilities
 ├── examples/          # Sample mazes and solutions
