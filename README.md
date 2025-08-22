@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### Basic Usage
 ```bash
-python maze_solver.py --input maze.png --algorithm astar --output solution.png
+python MazePathFinder.py --input examples/maze.png --algorithm astar --output examples/solution.png
 ```
 
 ## Supported Algorithms
@@ -90,7 +90,7 @@ MazePathFinder/
 
 ## Contributing
 
-We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
+We welcome contributions! Please check the issue tracker for existing issues and feel free to submit new ones, feature requests, or pull requests.
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
