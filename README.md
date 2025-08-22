@@ -32,19 +32,12 @@ python MazePathFinder.py --input examples/maze.png --algorithm astar --output ex
 
 ## Supported Algorithms
 
-| Algorithm | Optimal | Complete | Time Complexity | Best For |
-|-----------|---------|----------|-----------------|----------|
-<<<<<<< HEAD
-| A* Search | ✓ | ✓ | $O(b^d)$ | Most mazes with heuristic |
-| Dijkstra's | ✓ | ✓ | $O(|E|+|V|\log|V|)$ | Weighted mazes |
-| BFS | ✓ | ✓ | $O(|V|+|E|)$ | Unweighted mazes |
-| DFS | ✗ | ✓ | $O(|V|+|E|)$ | Memory-constrained cases |
-=======
-| A* Search | ✓ | ✓ | "O(b^d)" | Most mazes with heuristic |
-| Dijkstra's | ✓ | ✓ | "O(|E|+|V|log|V|)" | Weighted mazes |
-| BFS | ✓ | ✓ |   "O(|V|+|E|)" | Unweighted mazes |
-| DFS | ✗ | ✓ | "O(|V|+|E|)" | Memory-constrained cases |
->>>>>>> 9d49085cc482573752b2bbf47ff6caae785e0097
+| Algorithm | Optimal | Complete |  Best For |
+|-----------|---------|----------|----------|
+| A* Search | ✓ | ✓ | Most mazes with heuristic |
+| Dijkstra's | ✓ | ✓ | Weighted mazes |
+| BFS | ✓ | ✓ | Unweighted mazes |
+| DFS | ✗ | ✓ | Memory-constrained cases |
 
 ## Examples
 
