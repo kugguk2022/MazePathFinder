@@ -1,8 +1,5 @@
-# MazePathFinder
-Simple maze path finder
-
 # Maze Path Finder
-
+Simple maze path finder
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Open Source](https://img.shields.io/badge/Open%20Source-✓-success)
