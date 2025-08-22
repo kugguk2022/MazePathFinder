@@ -36,9 +36,9 @@ python MazePathFinder.py --input examples/maze.png --algorithm astar --output ex
 |-----------|---------|----------|-----------------|----------|
 <<<<<<< HEAD
 | A* Search | ✓ | ✓ | $O(b^d)$ | Most mazes with heuristic |
-| Dijkstra's | ✓ | ✓ | $O(|E|+|V|\log|V|)$ | Weighted mazes |
-| BFS | ✓ | ✓ | $O(|V|+|E|)$ | Unweighted mazes |
-| DFS | ✗ | ✓ | $O(|V|+|E|)$ | Memory-constrained cases |
+| Dijkstra's | ✓ | ✓ | $O\(|E|+|V|\log|V|\)$ | Weighted mazes |
+| BFS | ✓ | ✓ | $O\(|V|+|E|\)$ | Unweighted mazes |
+| DFS | ✗ | ✓ | $O\(|V|+|E|\)$ | Memory-constrained cases |
 =======
 
 ## Examples
