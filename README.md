@@ -34,12 +34,10 @@ python MazePathFinder.py --input examples/maze.png --algorithm astar --output ex
 
 | Algorithm | Optimal | Complete |  Best For |
 |-----------|---------|----------|----------|
-<<<<<<< HEAD
 | A* Search | ✓ | ✓ | Most mazes with heuristic |
 | Dijkstra's | ✓ | ✓ | Weighted mazes |
 | BFS | ✓ | ✓ | Unweighted mazes |
 | DFS | ✗ | ✓ | Memory-constrained cases |
-=======
 
 ## Examples
 
